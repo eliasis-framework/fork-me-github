@@ -23,9 +23,6 @@
     "require": {
         "eliasis-framework/installers": "*"
     },
-    "extra": {
-        "installer-name": "{$name}"
-    },
     "autoload": {
         "psr-4": {
             "App\\Modules\\ForkMeGitHub\\" : "/src"
