@@ -24,7 +24,9 @@
         "composer/installers": "*"
     },
     "extra": {
-        "installer-name": "{$name}"
+        "installer-paths": {
+            "your/custom/path/{$name}/": ["eliasis-framework/fork-me-github"]
+        }
     },
     "autoload": {
         "psr-4": {
