@@ -2,7 +2,7 @@
     "name":        "eliasis-framework/fork-me-github",
     "version":     "1.0.0",
     "description": "Eliasis PHP Framework module: Show strip 'Fork me on GitHub' on top-right of the page",
-    "type": "ppi-module",
+    "type": "prestashop-module",
     "keywords": [
         "Eliasis",
         "Framework", 
@@ -24,8 +24,7 @@
         "composer/installers": "*"
     },
     "extra": {
-        "installer-name": "Ftp",
-        "./modules/{$name}/": ["eliasis-framework/fork-me-github"]
+        "installer-name": "Ftp"
     },
     "autoload": {
         "psr-4": {
