@@ -2,7 +2,7 @@
     "name":        "eliasis-framework/fork-me-github",
     "version":     "1.0.0",
     "description": "Eliasis PHP Framework module: Show strip 'Fork me on GitHub' on top-right of the page",
-    "type": "cakephp-plugin",
+    "type": "ppi-module",
     "keywords": [
         "Eliasis",
         "Framework", 
