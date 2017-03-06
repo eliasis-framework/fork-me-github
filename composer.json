@@ -2,7 +2,7 @@
     "name":        "eliasis-framework/fork-me-github",
     "version":     "1.0.0",
     "description": "Eliasis PHP Framework module: Show strip 'Fork me on GitHub' on top-right of the page",
-    "type": "maya-module",
+    "type": "eliasis-module",
     "keywords": [
         "Eliasis",
         "Framework", 
@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "composer/installers": "*"
+        "eliasis-framework/installers": "*"
     },
     "extra": {
         "installer-name": "{$name}"
