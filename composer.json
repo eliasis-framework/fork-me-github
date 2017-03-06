@@ -24,7 +24,8 @@
         "composer/installers": "*"
     },
     "extra": {
-        "installer-name": "Ftp"
+        "installer-name": "Ftp",
+        "./modules/{$name}/": ["eliasis-framework/fork-me-github"]
     },
     "autoload": {
         "psr-4": {
