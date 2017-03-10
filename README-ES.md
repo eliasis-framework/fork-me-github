@@ -11,21 +11,32 @@
 - [Instalación](#instalación)
 - [Requisitos](#requisitos)
 - [Contribuir](#contribuir)
-- [Autor](#autor)
 - [Licencia](#licencia)
+- [Copyright](#copyright)
 
 ---
 Módulo de ejemplo para [aplicación](https://github.com/Eliasis-Framework/App) bajo [Eliasis PHP Framework](https://github.com/Eliasis-Framework/Eliasis). Este módulo agrega una tira 'Fork me on GitHub' en la parte superior de la página.
 
 ### Instalación 
 
-Puedes instalar este módulo  aplicación utilizando [Composer](http://getcomposer.org/download/).
+Tienes varias opciones para instalar un módulo en Eliasis PHP Framework:
 
-    $ composer create-project --prefer-dist eliasis-framework/app
+**Composer**
+
+La mejor manera de hacerlo es utilizando [Composer](http://getcomposer.org/download/).
+
+    $ composer require eliasis-framework/fork-me-github
+
+**Git**
+
+También puedes extraer el contenido del módulo Eliasis en app/modules/fork-me-github/ o utilizando [git clone](http://www.kernel.org/pub/software/scm/git/docs/git-clone.html) en el directorio de módulos.
+
+    $ cd app/modules
+    $ git clone https://github.com/Eliasis-Framework/fork-me-github.git
 
 ### Requisitos
 
-Este framework es soportado por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
+Este módulo es soportado por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
 
 ### Contribuir
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
@@ -36,10 +47,12 @@ Este framework es soportado por versiones de PHP 5.6 o superiores y es compatibl
 
 Esto está pensado para proyectos grandes y de larga duración.
 
-### Autor
-
-Mantenido por [Josantonius](https://github.com/Josantonius/).
-
 ### Licencia
 
 Este proyecto está licenciado bajo la **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+### Copyright
+
+2017 Josantonius, [josantonius.com](https://josantonius.com/)
+
+Si te ha resultado útil... ¡házmelo saber! Sígueme en [Twitter](https://twitter.com/Josantonius).

@@ -9,13 +9,24 @@
  * @since      1.0.0
  */
 
-namespace App\Modules\ForkMeGitHub\Model;
+namespace App\Modules\ForkMeGitHub;
 
-use Eliasis\Model\Model;
-    
+use Eliasis\Route\Route,
+    Eliasis\Module\Module;
+
 /**
- * Module main model.
+ * Routes handler.
  *
  * @since 1.0.0
  */
-class Blog extends Model { }
+class Routes {
+
+    /**
+     * Add routes to the application.
+     *
+     * @param array $routes
+     *
+     * @since 1.0.0
+     */
+    public static function add() { }
+}

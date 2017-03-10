@@ -5,13 +5,14 @@
  * @author     Josantonius - hola@josantonius.com
  * @copyright  Copyright (c) 2017
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
- * @link       https://github.com/Eliasis-Framework/Modules
+ * @link       https://github.com/Eliasis-Framework/fork-me-github
  * @since      1.0.0
  */
 
 namespace App\Modules\ForkMeGitHub\Controller;
 
 use Josantonius\Asset\Asset,
+    Eliasis\Module\Module,
     Eliasis\Controller\Controller;
     
 /**
@@ -21,8 +22,6 @@ use Josantonius\Asset\Asset,
  */
 class ForkMeGitHub extends Controller {
 
-    const ASSETS_URL = MODULES_URL . 'fork-me-github' . DS . 'assets' . DS;
-
     /**
      * Actions for css hook.
      *
@@ -30,7 +29,7 @@ class ForkMeGitHub extends Controller {
      */
     public function css() {
 
-        Asset::css(self::ASSETS_URL . 'css' . DS . 'style.css');
+        Asset::css(Module::ForkMeGitHub('getUrl', 'css') . 'style.css');
     }
 
     /**
@@ -38,8 +37,10 @@ class ForkMeGitHub extends Controller {
      *
      * @since 1.0.0
      */
-    public function top() {
+    public function render() {
 
-        self::$view->renderizate(dirname(__DIR__) . DS . 'view' . DS . 'strip');
+        $path = Module::ForkMeGitHub('getPath', 'view');
+
+        self::$view->renderizate($path . 'strip');
     }
 }

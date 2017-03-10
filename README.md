@@ -11,8 +11,8 @@
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [Contribute](#contribute)
-- [Author](#author)
 - [Licensing](#licensing)
+- [Copyright](#copyright)
 
 ---
 
@@ -20,9 +20,20 @@ Sample module for [application](https://github.com/Eliasis-Framework/App) under 
 
 ### Installation
 
-You can install this application using [Composer](http://getcomposer.org/download/).
+You have several options to install a module in Eliasis PHP Framework:
 
-    $ composer create-project --prefer-dist eliasis-framework/app
+**Composer**
+
+The best way to do this is to use [Composer](http://getcomposer.org/download/).
+
+    $ composer require eliasis-framework/fork-me-github
+
+**Git**
+
+You can also extract the Eliasis module content in app/modules/fork-me-github/ or use [git clone](http://www.kernel.org/pub/software/scm/git/docs/git-clone.html) in the modules directory.
+
+    $ cd app/modules
+    $ git clone https://github.com/Eliasis-Framework/fork-me-github.git
 
 ### Requirements
 
@@ -37,10 +48,12 @@ This framework is supported by PHP versions 5.6 or higher and is compatible with
 
 This is intended for large and long-lived objects.
 
-### Author
-
-Maintained by [Josantonius](https://github.com/Josantonius/).
-
 ### Licensing
 
 This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file for more info.
+
+### Copyright
+
+2017 Josantonius, [josantonius.com](https://josantonius.com/)
+
+If you found this release useful please let the author know! Follow on [Twitter](https://twitter.com/Josantonius).
