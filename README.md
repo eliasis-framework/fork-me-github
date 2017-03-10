@@ -16,7 +16,8 @@
 
 ---
 
-Sample module for [application](https://github.com/Eliasis-Framework/App) under [Eliasis PHP Framework](https://github.com/Eliasis-Framework/Eliasis). This module add a strip 'Fork me on GitHub' at the top of the page.
+Sample module for [application](https://github.com/Eliasis-Framework/App) under [Eliasis PHP Framework](https://github.com/Eliasis-Framework/Eliasis). 
+This module add a strip 'Fork me on GitHub' at the top of the page.
 
 ### Installation
 
@@ -37,7 +38,7 @@ You can also extract the Eliasis module content in app/modules/fork-me-github/ o
 
 ### Requirements
 
-This framework is supported by PHP versions 5.6 or higher and is compatible with HHVM versions 3.0 or higher.
+This module is supported by PHP versions 5.6 or higher and is compatible with HHVM versions 3.0 or higher.
 
 ### Contribute
 1. Check for open issues or open a new issue to start a discussion around a bug or feature.

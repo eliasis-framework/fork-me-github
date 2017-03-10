@@ -15,7 +15,8 @@
 - [Copyright](#copyright)
 
 ---
-Módulo de ejemplo para [aplicación](https://github.com/Eliasis-Framework/App) bajo [Eliasis PHP Framework](https://github.com/Eliasis-Framework/Eliasis). Este módulo agrega una tira 'Fork me on GitHub' en la parte superior de la página.
+Módulo de ejemplo para [aplicación](https://github.com/Eliasis-Framework/App) bajo [Eliasis PHP Framework](https://github.com/Eliasis-Framework/Eliasis). 
+Este módulo agrega una tira 'Fork me on GitHub' en la parte superior de la página.
 
 ### Instalación 
 
