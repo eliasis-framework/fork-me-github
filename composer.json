@@ -28,7 +28,7 @@
         "source": "https://github.com/Eliasis-Framework/fork-me-github"
     },
     "require": {
-        "composer/installers": "*"
+        "composer/installers": "dev-master"
     },
     "autoload": {
         "psr-4": {
