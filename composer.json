@@ -28,7 +28,8 @@
         "source": "https://github.com/Eliasis-Framework/fork-me-github"
     },
     "require": {
-        "composer/installers": "dev-master"
+        "composer/installers": "dev-master",
+        "Josantonius/Asset" : "^1.1.0"
     },
     "autoload": {
         "psr-4": {
