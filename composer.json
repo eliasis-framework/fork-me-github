@@ -20,8 +20,10 @@
             "role":     "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable" : true,
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
     "support": {
         "issues": "https://github.com/Eliasis-Framework/fork-me-github/issues",
         "forum": "http://stackoverflow.com/tags/eliasis",
