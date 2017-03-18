@@ -29,6 +29,10 @@ The best way to do this is to use [Composer](http://getcomposer.org/download/).
 
     $ composer require eliasis-framework/fork-me-github
 
+The previous command will only install the necessary files, if you prefer to download the entire source, including tests, you can use:
+
+    $ composer require eliasis-framework/fork-me-github --prefer-source
+    
 **Git**
 
 You can also extract the Eliasis module content in app/modules/fork-me-github/ or use [git clone](http://www.kernel.org/pub/software/scm/git/docs/git-clone.html) in the modules directory.

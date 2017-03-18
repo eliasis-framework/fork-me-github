@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/eliasis-framework/app/v/stable)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![Total Downloads](https://poser.pugx.org/eliasis-framework/fork-me-github/downloads)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![Latest Unstable Version](https://poser.pugx.org/eliasis-framework/fork-me-github/v/unstable)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![License](https://poser.pugx.org/eliasis-framework/fork-me-github/license)](https://packagist.org/packages/eliasis-framework/fork-me-github)
 
-[English version](README-ES.md)
+[English version](README.md)
 
 ![image](https://github.com/Eliasis-Framework/Eliasis/blob/master/resources/eliasis-php-framework.png)
 
@@ -28,6 +28,10 @@ La mejor manera de hacerlo es utilizando [Composer](http://getcomposer.org/downl
 
     $ composer require eliasis-framework/fork-me-github
 
+El comando anterior solamente instalará los archivos necesarios, si prefieres descargar todo el código, incluyendo tests, puedes utilizar:
+
+    $ composer require eliasis-framework/fork-me-github --prefer-source
+    
 **Git**
 
 También puedes extraer el contenido del módulo Eliasis en app/modules/fork-me-github/ o utilizando [git clone](http://www.kernel.org/pub/software/scm/git/docs/git-clone.html) en el directorio de módulos.
