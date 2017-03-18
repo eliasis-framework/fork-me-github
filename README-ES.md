@@ -28,7 +28,7 @@ La mejor manera de hacerlo es utilizando [Composer](http://getcomposer.org/downl
 
     $ composer require eliasis-framework/fork-me-github
 
-El comando anterior solamente instalará los archivos necesarios, si prefieres descargar todo el código, incluyendo tests, puedes utilizar:
+El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente (incluyendo tests, directorio vendor, excepciones no utilizadas, documentos...) puedes utilizar:
 
     $ composer require eliasis-framework/fork-me-github --prefer-source
     
