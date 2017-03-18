@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/eliasis-framework/app/v/stable)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![Total Downloads](https://poser.pugx.org/eliasis-framework/fork-me-github/downloads)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![Latest Unstable Version](https://poser.pugx.org/eliasis-framework/fork-me-github/v/unstable)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![License](https://poser.pugx.org/eliasis-framework/fork-me-github/license)](https://packagist.org/packages/eliasis-framework/fork-me-github)
 
-[Spanish version](README-ES.md)
+[Versión en español](README-ES.md)
 
 ![image](https://github.com/Eliasis-Framework/Eliasis/blob/master/resources/eliasis-php-framework.png)
 
@@ -61,4 +61,6 @@ This project is licensed under **MIT license**. See the [LICENSE](LICENSE) file 
 
 2017 Josantonius, [josantonius.com](https://josantonius.com/)
 
-If you found this release useful please let the author know! Follow on [Twitter](https://twitter.com/Josantonius).
+If you find it useful, let me know :wink:
+
+You can contact me on [Twitter](https://twitter.com/Josantonius) or through my [email](mailto:hello@josantonius.com).
