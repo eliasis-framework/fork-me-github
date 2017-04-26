@@ -11,7 +11,7 @@
 
 use Eliasis\Module\Module;
 
-$controller = Module::getNamespace('controller');
+$controller = Module::ForkMeGitHub('namespace', 'controller');
 
 return [
 

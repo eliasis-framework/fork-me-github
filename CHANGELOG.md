@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.2 - 2017-04-26
+
+* Eliasis Framework has been updated to version 1.0.4.
+
 ## 1.0.1 - 2017-03-17
 
 * Added `config/hooks.php` file.
