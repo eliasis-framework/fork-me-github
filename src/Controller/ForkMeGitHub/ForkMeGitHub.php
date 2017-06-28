@@ -9,7 +9,7 @@
  * @since      1.0.0
  */
 
-namespace App\Modules\ForkMeGitHub\Controller;
+namespace App\Modules\ForkMeGitHub\Controller\ForkMeGitHub;
 
 use Josantonius\Asset\Asset,
     Eliasis\Module\Module,
@@ -29,7 +29,7 @@ class ForkMeGitHub extends Controller {
      */
     public function css() {
 
-        Asset::css(Module::ForkMeGitHub('url', 'css') . 'style.css');
+        Asset::css(Module::ForkMeGitHub()->get('url', 'css') . 'style.css');
     }
 
     /**
@@ -39,7 +39,7 @@ class ForkMeGitHub extends Controller {
      */
     public function render() {
 
-        $path = Module::ForkMeGitHub('path', 'elements');
+        $path = Module::ForkMeGitHub()->get('path', 'components');
 
         $this->view->renderizate($path . 'strip');
     }

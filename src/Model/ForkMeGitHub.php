@@ -9,7 +9,7 @@
  * @since      1.0.0
  */
 
-namespace App\Modules\ForkMeGitHub\Model;
+namespace App\Modules\ForkMeGitHub\Model\ForkMeGitHub;
 
 use Eliasis\Model\Model;
     
