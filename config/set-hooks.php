@@ -19,7 +19,7 @@ return [
 
     'hooks' => [
 
-		['css',        [$namespace . $class, 'css']   , 8, 0],
-		['after-body', [$namespace . $class, 'render'], 8, 0],
+		['css',        [$namespace . $class, 'css']    , 8, 0],
+		['after-body', [$namespace . $class, 'render'] , 8, 0],
     ],
 ];
