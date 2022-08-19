@@ -1,7 +1,7 @@
 # Fork Me GitHub · Eliasis PHP Framework module
 
 [![Latest Stable Version](https://poser.pugx.org/eliasis-framework/app/v/stable)](https://packagist.org/packages/eliasis-framework/fork-me-github)
-[License](https://poser.pugx.org/eliasis-framework/fork-me-github/license)
+[![License](https://poser.pugx.org/eliasis-framework/fork-me-github/license)](https://packagist.org/packages/eliasis-framework/fork-me-github)
 
 [English version](README.md)
 
