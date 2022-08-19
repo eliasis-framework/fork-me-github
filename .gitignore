@@ -6,6 +6,8 @@ build/artifacts/
 artifacts/
 docs/_build
 docs/*.pyc
-.git*/
 .idea
 .DS_STORE
+.repository.md
+fork-me-github.code-workspace
+.vscode

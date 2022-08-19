@@ -1,6 +1,7 @@
 # Fork Me GitHub · Eliasis PHP Framework module
 
-[![Latest Stable Version](https://poser.pugx.org/eliasis-framework/app/v/stable)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![Total Downloads](https://poser.pugx.org/eliasis-framework/fork-me-github/downloads)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![Latest Unstable Version](https://poser.pugx.org/eliasis-framework/fork-me-github/v/unstable)](https://packagist.org/packages/eliasis-framework/fork-me-github) [![License](https://poser.pugx.org/eliasis-framework/fork-me-github/license)](https://packagist.org/packages/eliasis-framework/fork-me-github)
+[![Latest Stable Version](https://poser.pugx.org/eliasis-framework/app/v/stable)](https://packagist.org/packages/eliasis-framework/fork-me-github)
+[License](https://poser.pugx.org/eliasis-framework/fork-me-github/license)]
 
 [English version](README.md)
 
@@ -10,15 +11,14 @@
 
 - [Instalación](#instalación)
 - [Requisitos](#requisitos)
-- [Contribuir](#contribuir)
+- [Patrocinar](#patrocinar)
 - [Licencia](#licencia)
-- [Copyright](#copyright)
 
 ---
-Módulo de ejemplo para [aplicación](https://github.com/Eliasis-Framework/App) bajo [Eliasis PHP Framework](https://github.com/Eliasis-Framework/Eliasis). 
+Módulo de ejemplo para [aplicación](https://github.com/Eliasis-Framework/App) bajo [Eliasis PHP Framework](https://github.com/Eliasis-Framework/Eliasis).
 Este módulo agrega una tira 'Fork me on GitHub' en la parte superior de la página.
 
-### Instalación 
+### Instalación
 
 Tienes varias opciones para instalar un módulo en Eliasis PHP Framework:
 
@@ -26,40 +26,31 @@ Tienes varias opciones para instalar un módulo en Eliasis PHP Framework:
 
 La mejor manera de hacerlo es utilizando [Composer](http://getcomposer.org/download/).
 
-    $ composer require eliasis-framework/fork-me-github
+    composer require eliasis-framework/fork-me-github
 
 El comando anterior sólo instalará los archivos necesarios, si prefieres descargar todo el código fuente (incluyendo tests, directorio vendor, excepciones no utilizadas, documentos...) puedes utilizar:
 
-    $ composer require eliasis-framework/fork-me-github --prefer-source
-    
+    composer require eliasis-framework/fork-me-github --prefer-source
+
 **Git**
 
 También puedes extraer el contenido del módulo Eliasis en app/modules/fork-me-github/ o utilizando [git clone](http://www.kernel.org/pub/software/scm/git/docs/git-clone.html) en el directorio de módulos.
 
-    $ cd app/modules
-    $ git clone https://github.com/Eliasis-Framework/fork-me-github.git
+    cd app/modules
+    git clone https://github.com/Eliasis-Framework/fork-me-github.git
 
 ### Requisitos
 
 Este módulo es soportado por versiones de PHP 5.6 o superiores y es compatible con versiones de HHVM 3.0 o superiores.
 
-### Contribuir
-1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
-1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.
-1. Escribe una o más pruebas para la nueva característica o expón el error.
-1. Haz cambios en el código para implementar la característica o reparar el fallo.
-1. Envía pull request para fusionar los cambios y que sean publicados.
+## Patrocinar
 
-Esto está pensado para proyectos grandes y de larga duración.
+Si este proyecto te ayuda a reducir el tiempo de desarrollo,
+[puedes patrocinarme](https://github.com/josantonius/lang/es-ES/README.md#patrocinar)
+para apoyar mi trabajo :blush:
 
-### Licencia
+## Licencia
 
-Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
+Este repositorio tiene una licencia [MIT License](LICENSE).
 
-### Copyright
-
-2017 Josantonius, [josantonius.com](https://josantonius.com/)
-
-Si te ha resultado útil, házmelo saber :wink:
-
-Puedes contactarme en [Twitter](https://twitter.com/Josantonius) o a través de mi [correo electrónico](mailto:hello@josantonius.com).
+Copyright © 2017-2022, [Josantonius](https://github.com/josantonius/lang/es-ES/README.md#contacto)
